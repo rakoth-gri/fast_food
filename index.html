@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- GOOGLE API TYPOGRATHY -->
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,300,0,0"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- STYLES -->
+    <link rel="stylesheet" type="text/css" href="./css/index.min.css" />
+    <link rel="icon" href="icons/favicon.png" />
+    <title>EL_KASSA</title>
+  </head>
+  <body>
+    <div class="APP">
+      <!-- HEADER -->
+      <header class="header">
+        <a href="./cart.html" alt="cart">
+          <div class="header__shoppingBasketWrapper">
+            <span class="material-symbols-outlined header__shoppingBasket">
+              shopping_basket
+            </span>
+            <span class="header__basketAmount"> </span>
+          </div>
+        </a>
+        <div class="header__searchBar">
+          <input
+            type="search"
+            class="header__searchBar_input"
+            placeholder="Поиск:"
+            autofocus
+          />
+        </div>
+        <div class="header__deleteAll">
+          <span class="material-symbols-outlined"> refresh </span>
+          <span class="material-symbols-outlined header__deleteAll_span">
+            contract_delete
+          </span>
+        </div>
+      </header>
+      <!-- ASIDE g-->
+      <aside class="categories"><!-- AUTO RENDER --></aside>
+      <!-- MAIN (DISHES) -->
+      <main class="dishes"><!-- AUTO RENDER --></main>
+      <!-- DIV (DISHESMODAL) -->
+      <div class="dishes__modal">
+        <!-- AUTO RENDER -->
+      </div>
+    </div>    
+    <script src="scripts/index.js" type="module"></script>
+  </body>
+</html>

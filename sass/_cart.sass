@@ -1,0 +1,45 @@
+.Cart
+    background-color: $bgc-app    
+    width: 100%
+    height: 100vh
+    overflow-Y: auto
+
+    &::-webkit-scrollbar
+        background: $bgc-app
+        width: $p-xs
+
+    &::-webkit-scrollbar-thumb
+        background-color: #000  
+
+    &__back
+        padding: $p-lg
+        width: 5%
+
+        a
+            @include button-props
+            background-color: $c-active
+            color: $bgc-dishes
+            display: flex
+            width: auto
+            font-size: inherit
+        
+
+    &__tableWrapper
+        padding: $p-lg
+
+.table
+    width: 90%
+    margin: $p-md auto
+    border: 0.25rem dashed $c-grey
+    border-collapse: collapse
+    font-size: $fs-lg
+    font-family: "Montserrat", serif  
+
+    &__td_button
+
+        button
+            @include button-props
+            background-color: $c-active
+            color: $bgc-dishes
+            font-size: inherit
+            width: 80%      

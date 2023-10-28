@@ -1,0 +1,60 @@
+
+*
+    box-sizing: border-box
+    padding: 0px
+    margin: 0px
+
+body
+    font-size: $fs-md
+    font-family: $roboto
+    
+// UI ELEMENTS:
+
+h1,h2,h3,h4,h6
+    text-align: center
+    padding: $p-md
+    color: $c-grey
+    font-family: "Montserrat", serif    
+
+button, input
+    border: none
+    outline: none
+    font-family: inherit
+   
+    font-size: inherit
+    background: none
+
+    &:focus::placeholder
+        transform: scale(0)
+        opacity: 0.1
+        
+
+a
+    text-decoration: none
+    color: inherit
+    font-family: inherit
+    text-align: center
+    font-size: inherit
+
+td, th
+    text-align: center
+    padding: 1em
+    width: auto
+    border: 0.25rem dashed $c-grey         
+    
+.APP    
+    width: 100vw
+    height: 100vh
+    display: grid
+    gap: $gap
+    grid-template-columns: 2fr 10fr
+    grid-template-rows: 2fr 10fr
+    grid-template-areas: "header header" "categories dishes"
+    background-color: $bgc-app   
+
+.header    
+    grid-area: header
+    padding: $p-sm
+
+
+                  

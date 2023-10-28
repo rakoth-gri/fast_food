@@ -1,0 +1,43 @@
+$gap: 5px
+
+$p-xs: 6px    
+$p-sm: 0.5rem
+$p-md: 1rem
+$p-lg: 1.5rem
+
+$fs-xs: 0.75rem    
+$fs-sm: 1rem
+$fs-md: 1.25rem
+$fs-lg: 1.5rem
+$fs-xl: 2rem
+$fs-xxl: 2.5rem
+
+$fw-sm: 400     
+$fw-md: 500 
+$fw-bold: 700    
+
+$roboto: 'Roboto', sans-serif
+
+$bgc-app: #eee6e6
+$bgc-dishes: #f2eded
+$bgc-button: #ddbd5e
+$bgc-cart: #205706 
+$c-grey: #606060
+$c-active: brown     
+
+
+@mixin button-props
+    font-size: $fs-sm
+    padding: $p-sm 
+    line-height: 1.5em
+    text-align: center
+    border-radius: $p-xs
+    cursor: pointer
+
+@mixin dishes-card-icons
+    position: absolute
+    bottom: 2%
+    font-size: $fs-xl
+    font-weight: 500
+    cursor: pointer
+    transition: 0.3s all linear           

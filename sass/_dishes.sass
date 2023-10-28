@@ -1,0 +1,67 @@
+.dishes      
+    grid-area: dishes
+    padding: $p-sm 
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    flex-wrap: wrap
+    background-color: $bgc-dishes
+    overflow-Y: auto
+    position: relative
+
+    &::-webkit-scrollbar
+        background: $bgc-app
+        width: $p-xs
+
+    &::-webkit-scrollbar-thumb
+        background-color: #000   
+
+    &__card
+        flex: 1 1 335px
+        max-width: 335px
+        text-align: center
+        padding: $p-sm
+        position: relative
+        margin: $p-lg 
+        height: 450px 
+
+        &_pict
+            width: 80%
+
+        &_title
+            margin: $p-sm 0
+
+        &_info
+            text-align-last: left
+            padding: $p-sm
+            font-size: $fs-sm    
+
+        &_size, &_price
+            display: block
+            width: 50%
+
+        &_price
+            font-weight: $fw-bold
+        
+        
+        &_btn
+            @include button-props
+            background-color: $bgc-button
+
+        &_cart
+            @include dishes-card-icons
+            color: $bgc-cart
+            right: 4%            
+            &:hover
+                transform: rotateZ(360deg)
+
+        &_amount, &_remove
+            @include dishes-card-icons
+            right: 14%           
+            color: $c-grey
+
+        &_remove
+           left: 4%
+           color: brown
+           width: 10%            
+                                              

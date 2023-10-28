@@ -1,0 +1,69 @@
+.header
+    padding: $p-sm
+    position: relative
+
+    a
+       position: absolute
+       right: 1.5%
+       display: block
+       width: auto
+       font-size: $fs-xl   
+
+    &__shoppingBasketWrapper        
+        display: flex
+        align-items: center
+        text-align: right
+       
+    
+    &__shoppingBasket
+        font-size: $fs-xl
+        margin-right: $p-sm
+
+        &.active
+            color: $c-active
+            text-shadow: 2px 3px 10px #ea470bbc
+
+
+    &__searchBar
+        position: absolute
+        bottom: 10%
+        width: 65%
+        left: 16.85%
+        margin: 0 auto
+
+        &_input
+            width: 100%
+            border: 2px solid darken($bgc-app, 20%)
+            padding: $p-md
+            border-radius: $p-sm
+
+            &:focus
+                background-color: #fff
+
+    &__deleteAll
+        position: absolute
+        right: 1.5%
+        bottom: 10%
+        display: flex
+        align-items: center
+        color: $c-active
+        border: 1px solid darken($bgc-app, 20%)
+        border-radius: $p-sm
+        padding: $p-sm
+        cursor: pointer
+
+        &:hover
+            background-color: $bgc-button
+        
+
+        &_span
+            font-size: $fs-xl   
+
+
+
+    
+
+        
+
+      
+        

@@ -1,0 +1,32 @@
+.categories
+    grid-area: categories
+    padding: $p-sm
+    font-size: $fs-sm
+    text-align: center    
+    overflow-Y: auto
+
+    &::-webkit-scrollbar
+        background: $bgc-app
+        width: $p-xs
+
+    &::-webkit-scrollbar-thumb
+        background-color: #000   
+
+    &__card        
+        // background: darken($bgc-app, 2%)
+        border-radius: 2%
+        margin: $p-md 0
+        padding: $p-xs
+        cursor: pointer
+
+        &_pict
+            filter: grayscale(70)
+            width: 80%            
+
+        &_desc
+            font-weight: $fw-md
+            margin: $p-xs 0    
+
+
+.active
+    filter: none
