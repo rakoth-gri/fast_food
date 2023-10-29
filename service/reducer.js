@@ -1,7 +1,10 @@
 import { ACTION_TYPES } from "../constants/constants.js";
 
+const initState = JSON.parse(localStorage.getItem("cart") || "[]");
+
 // Нет мутаций стэйта
-export default function reducer(state, { type, payload }) {
+export default function reducer({ type, payload }, state = initState) {
+  console.log(state);
   switch (type) {
     case ACTION_TYPES.addDishToStore:
       if (state.find((item) => item.id === payload.id)) {

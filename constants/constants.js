@@ -26,7 +26,7 @@ const CATEGORIES_LIST = [
     pict: "https://vkusnoitochka.ru/resize/194x194/upload/iblock/399/rcrahic86gvdateldvpul16wwqid9sho/large.png",
     category: "burgersNrolls",
     title: "Бургеры и роллы",
-  },
+  }  
 ];
 
 const ACTION_TYPES = {

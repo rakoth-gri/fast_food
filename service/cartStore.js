@@ -1,11 +1,12 @@
 import reducer from "./reducer.js";
 
 const cartStore = {
-  state: JSON.parse(localStorage.getItem("cart") || "[]"),
+  // state: JSON.parse(localStorage.getItem("cart") || "[]"),
+  state: reducer({type: "INIT MANAGER"}),
   subscribers: [],
   // METHODS ------
   dispatch(action) {
-    this.state = reducer(this.state, action);
+    this.state = reducer(action, this.state);
     this.subscribers.forEach((fn) => fn(this.state));
   },
   
