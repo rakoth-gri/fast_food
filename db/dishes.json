@@ -678,5 +678,20 @@
       "price": 115,
       "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/575/mw327lnapdouf8yleynpgfm4mbinewrc/large.png"
     }
+  ],
+  "comboLunch": [
+    {
+      "id": "4.1",
+      "category": "comboLunch",
+      "title": "Биг Спешиал Острый Микс Комбо",
+      "newDish": false,
+      "desc": "Комбо состоит из Биг Спешиал Острый Микс, Картофеля на выбор и Напитка на выбор. Цена Комбо может меняться в зависимости от комплектации.",
+      "size": [
+        { "name": "4 шт.", "price": 209 },
+        { "name": "6 шт.", "price": 279 }       
+      ],
+      "price": null,
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/575/mw327lnapdouf8yleynpgfm4mbinewrc/large.png"
+    }
   ]  
 }

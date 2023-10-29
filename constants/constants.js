@@ -26,6 +26,12 @@ const CATEGORIES_LIST = [
     pict: "https://vkusnoitochka.ru/resize/194x194/upload/iblock/399/rcrahic86gvdateldvpul16wwqid9sho/large.png",
     category: "burgersNrolls",
     title: "Бургеры и роллы",
+  },
+  {
+    id: 4,
+    pict: "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a80/62fil0t32gickk0iuzkz7abq0e3dtgj9/large.png",
+    category: "comboLunch",
+    title: "Комбо Обед",
   }  
 ];
 
