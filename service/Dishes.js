@@ -23,7 +23,7 @@ export default class Dishes {
     let res = await fetch(URL);
     let data = await res.json();
     //  Object => []
-    this.dishesList = Object.values(data).flat();        
+    this.dishesList = Object.values(data).flat();
     this.renderDishes(category, null);
   }
 
@@ -33,18 +33,25 @@ export default class Dishes {
 
     let data =
       searchValue === null
-        // ? this.dishesList.filter((dish) => dish.category === category)
-        ? this.dishesList.filter((dish) => category === 'popular' ? dish.popular : dish.category === category)
+        ? // ? this.dishesList.filter((dish) => dish.category === category)
+          this.dishesList.filter((dish) =>
+            category === "popular" ? dish.popular : dish.category === category
+          )
         : this.dishesList.filter(({ title, desc }) =>
             title.concat(desc).trim().toLowerCase().includes(searchValue)
           );
 
     this.$container.innerHTML = `
         ${data
-          .map(({ title, pict, size, price, id }, i) => {
+          .map(({ title, pict, size, price, id, popular }, i) => {
             return `
               <article class="dishes__card">
-                <img src="${pict}" alt="${title}" class="dishes__card_pict"/>
+                ${
+                  popular
+                    ? `<img alt="hit.png" src="./img/hit.png" class="dishes__card_hit"/>`
+                    : ``
+                }
+                <img src="${pict}" alt="${title}" class="dishes__card_pict" loading="lazy"/>
                 <p class="dishes__card_title"> ${title} </p>
                 <div class="dishes__card_info">
                   <span class="dishes__card_size"> ${
@@ -99,13 +106,13 @@ export default class Dishes {
         [...document.querySelectorAll(".dishes__card_amount")].find(
           (item) => item.id === id
         ).textContent = 0;
-        cartStore.dispatch(actionCreators.removeDishFromStoreAction(id))       
+        cartStore.dispatch(actionCreators.removeDishFromStoreAction(id));
         break;
       default:
         [...document.querySelectorAll(".dishes__card_amount")].find(
           (item) => item.id === id
         ).textContent =
-          (cartState.find((item) => item.id === id)?.amount || 0) + 1;        
+          (cartState.find((item) => item.id === id)?.amount || 0) + 1;
         cartStore.dispatch(
           actionCreators.addDishToStoreAction({
             id,
@@ -122,8 +129,10 @@ export default class Dishes {
   };
 
   deleteAllHandler = (e) => {
-    cartStore.dispatch(actionCreators.removeAllDishesFromStore())
-    document.querySelectorAll(".dishes__card_amount").forEach(dishAmount => dishAmount.textContent = 0)
+    cartStore.dispatch(actionCreators.removeAllDishesFromStore());
+    document
+      .querySelectorAll(".dishes__card_amount")
+      .forEach((dishAmount) => (dishAmount.textContent = 0));
   };
 
   // LISTENERS --

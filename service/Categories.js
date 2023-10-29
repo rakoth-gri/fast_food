@@ -24,7 +24,7 @@ export class Categories {
             <div class="categories__card" data-i="${i}">
                 <img class="${`categories__card_pict ${
                   category === this.category && "active"
-                }`}" alt="${category}" src="${pict}" data-category="${category}" data-i="${i}"/>
+                }`}" alt="${category}" src="${pict}" data-category="${category}" data-i="${i}" loading="lazy"/>
                 <figcaption class="categories__card_desc" data-i="${i}"> ${title} </figcaption>    
             </div>
         `
@@ -39,7 +39,6 @@ export class Categories {
   // HANDLERS --
   sidebarHandler = (e) => {
     const { category, i } = e.target.dataset;
-    console.log(category, i);
     this.setActiveCategoriesCardsImage(i);
     this.dishes.renderDishes(category, null);
   };
