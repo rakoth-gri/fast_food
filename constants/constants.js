@@ -32,7 +32,13 @@ const CATEGORIES_LIST = [
     pict: "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a80/62fil0t32gickk0iuzkz7abq0e3dtgj9/large.png",
     category: "comboLunch",
     title: "Комбо Обед",
-  }  
+  },
+  {
+    id: 5,
+    pict: "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a9c/o9wvsgd785mlozd8sekimfcxzxtlmbsg/large.png",
+    category: "popular",
+    title: "Популярное",
+  }   
 ];
 
 const ACTION_TYPES = {

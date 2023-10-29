@@ -38,7 +38,8 @@ export class Categories {
 
   // HANDLERS --
   sidebarHandler = (e) => {
-    const { category, i } = e.target.dataset;    
+    const { category, i } = e.target.dataset;
+    console.log(category, i);
     this.setActiveCategoriesCardsImage(i);
     this.dishes.renderDishes(category, null);
   };

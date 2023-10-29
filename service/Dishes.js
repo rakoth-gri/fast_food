@@ -23,7 +23,7 @@ export default class Dishes {
     let res = await fetch(URL);
     let data = await res.json();
     //  Object => []
-    this.dishesList = Object.values(data).flat();
+    this.dishesList = Object.values(data).flat();        
     this.renderDishes(category, null);
   }
 
@@ -33,7 +33,8 @@ export default class Dishes {
 
     let data =
       searchValue === null
-        ? this.dishesList.filter((dish) => dish.category === category)
+        // ? this.dishesList.filter((dish) => dish.category === category)
+        ? this.dishesList.filter((dish) => category === 'popular' ? dish.popular : dish.category === category)
         : this.dishesList.filter(({ title, desc }) =>
             title.concat(desc).trim().toLowerCase().includes(searchValue)
           );

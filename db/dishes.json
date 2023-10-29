@@ -11,7 +11,8 @@
         { "name": "Средний", "price": 105 },
         { "name": "Большой", "price": 115 }
       ],
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d40/o0qg5wo0ai7n6cx2y0fus07or1jtowi1/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d40/o0qg5wo0ai7n6cx2y0fus07or1jtowi1/large.png",
+      "popular": false
     },
     {
       "id": "1.2",
@@ -24,7 +25,8 @@
         { "name": "Средний", "price": 105 },
         { "name": "Большой", "price": 115 }
       ],
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/7b7/fm6tv9x90n3e5axu8j1zxpdw01hbp38s/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/7b7/fm6tv9x90n3e5axu8j1zxpdw01hbp38s/large.png",
+      "popular": false
     },
     {
       "id": "1.3",
@@ -34,7 +36,8 @@
       "desc": "Горячий напиток, в основе которого натуральное пюре из ягод с добавлением спелого апельсина и бадьяна.",
       "size": null,
       "price": 119,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ddf/qx2pt4jcizc0mcqej8hclp33anyi2bm8/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ddf/qx2pt4jcizc0mcqej8hclp33anyi2bm8/large.png",
+      "popular": false
     },
     {
       "id": "1.4",
@@ -44,7 +47,8 @@
       "desc": "Капучино с воздушной молочной пенкой и сиропом со вкусом спелой сливы.",
       "size": null,
       "price": 149,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e14/jqaue1r6216vh0ni0c1akczws0tqih29/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e14/jqaue1r6216vh0ni0c1akczws0tqih29/large.png",
+      "popular": false
     },
     {
       "id": "1.5",
@@ -58,7 +62,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/fb4/8498ynr3pixk3p412pd8wxzom0qs1gtt/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/fb4/8498ynr3pixk3p412pd8wxzom0qs1gtt/large.png",
+      "popular": false
     },
     {
       "id": "1.6",
@@ -72,7 +77,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/79e/clgxaopzdl6ojuphh464acp738vcug8l/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/79e/clgxaopzdl6ojuphh464acp738vcug8l/large.png",
+      "popular": false
     },
     {
       "id": "1.7",
@@ -86,7 +92,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/340/ln6dovpxde1hj3k18e1055jt4nj9rvdz/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/340/ln6dovpxde1hj3k18e1055jt4nj9rvdz/large.png",
+      "popular": false
     },
     {
       "id": "1.8",
@@ -100,7 +107,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/779/2a2r8qev6ydu4hauso2ibu5mmd8nzhhu/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/779/2a2r8qev6ydu4hauso2ibu5mmd8nzhhu/large.png",
+      "popular": false
     },
     {
       "id": "1.9",
@@ -114,7 +122,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b30/4km4tb4mng6s3uwm91i1x2iio5t26cmi/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b30/4km4tb4mng6s3uwm91i1x2iio5t26cmi/large.png",
+      "popular": false
     },
     {
       "id": "1.10",
@@ -128,7 +137,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e0d/wgn2ee9d3zoyidgj9iyih038i1qzraj1/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e0d/wgn2ee9d3zoyidgj9iyih038i1qzraj1/large.png",
+      "popular": false
     },
     {
       "id": "1.11",
@@ -152,7 +162,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f02/5swmpjs0k8sd48yq8ai7jfpc37r3m2kg/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f02/5swmpjs0k8sd48yq8ai7jfpc37r3m2kg/large.png",
+      "popular": false
     },
     {
       "id": "1.13",
@@ -166,7 +177,8 @@
         { "name": "Большой", "price": 115 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f02/5swmpjs0k8sd48yq8ai7jfpc37r3m2kg/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f02/5swmpjs0k8sd48yq8ai7jfpc37r3m2kg/large.png",
+      "popular": false
     },
     {
       "id": "1.14",
@@ -179,7 +191,8 @@
         { "name": "Средний", "price": 105 },
         { "name": "Большой", "price": 115 }
       ],
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/065/tnilhpaswad6mzcwi1zxwr8j5ryl5dyi/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/065/tnilhpaswad6mzcwi1zxwr8j5ryl5dyi/large.png",
+      "popular": false
     },
     {
       "id": "1.15",
@@ -192,7 +205,8 @@
         { "name": "Средний", "price": 109 },
         { "name": "Большой", "price": 139 }
       ],
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ba7/7n3ybgd43d0q3cs1k92l8j3r5y3y6yfr/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ba7/7n3ybgd43d0q3cs1k92l8j3r5y3y6yfr/large.png",
+      "popular": false
     },
     {
       "id": "1.16",
@@ -204,7 +218,8 @@
         { "name": "Средний", "price": 109 },
         { "name": "Большой", "price": 139 }
       ],
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e98/w7jscubj93p44j698r5mnrfbomyuj2y8/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e98/w7jscubj93p44j698r5mnrfbomyuj2y8/large.png",
+      "popular": false
     }
   ],
   "burgersNrolls": [
@@ -216,7 +231,8 @@
       "desc": "Сочная куриная котлета в хрустящей панировке, нежный грибной соус, ломтик сыра Чеддер, ароматный бекон, свежий салат, кусочки жареного хрустящего лука и карамелизированная булочка с кунжутом",
       "size": null,
       "price": 194,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/30b/cwfb1j5cizrfy0p3pyxxzwsg9t7927aa/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/30b/cwfb1j5cizrfy0p3pyxxzwsg9t7927aa/large.png",
+      "popular": false
     },
     {
       "id": "2.2",
@@ -226,7 +242,8 @@
       "desc": "Большой бургер с четырьмя рублеными бифштексами из 100% говядины, маринованными огурчиками, свежим салатом «Айсберг», ломтиком плавленого сыра Чеддер и специальным соусом «Биг Хит» на новой булочке с двумя видами кунжута",
       "size": null,
       "price": 254,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a23/dpkk16ntba06qed5a61odwwizwr8lt1m/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a23/dpkk16ntba06qed5a61odwwizwr8lt1m/large.png",
+      "popular": false
     },
     {
       "id": "2.3",
@@ -236,7 +253,8 @@
       "desc": "Пара Биг Спешиал Острый Микс по выгодной цене",
       "size": null,
       "price": 575,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/efd/h68o7huhp8a7m4gtif2z0sz45y42zpw1/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/efd/h68o7huhp8a7m4gtif2z0sz45y42zpw1/large.png",
+      "popular": false
     },
     {
       "id": "2.4",
@@ -246,7 +264,8 @@
       "desc": "Пара Биг Спешиал Острый  по выгодной цене",
       "size": null,
       "price": 539,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/efd/h68o7huhp8a7m4gtif2z0sz45y42zpw1/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/efd/h68o7huhp8a7m4gtif2z0sz45y42zpw1/large.png",
+      "popular": false
     },
     {
       "id": "2.5",
@@ -256,7 +275,8 @@
       "desc": "Неповторимый сандвич с большим рубленым бифштексом из 100% отборной говядины на большой булочке с кунжутом. Внутри свежие овощи, сыр эмменталь, соус с дымком и специальный пряный соус из микса пикантных перцев",
       "size": null,
       "price": 319,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/aeb/oszxqts7exnpjfy9nzh5xe916138pj5y/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/aeb/oszxqts7exnpjfy9nzh5xe916138pj5y/large.png",
+      "popular": false
     },
     {
       "id": "2.6",
@@ -266,7 +286,8 @@
       "desc": "Сочная куриная котлета в хрустящей панировке, нежный грибной соус, свежий салат, кусочки жареного хрустящего лука и карамелизированная булочка с кунжутом",
       "size": null,
       "price": 135,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/5ab/3ih4qxheybzcmfpkdupem7wvgylrpjhf/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/5ab/3ih4qxheybzcmfpkdupem7wvgylrpjhf/large.png",
+      "popular": false
     },
     {
       "id": "2.7",
@@ -276,7 +297,8 @@
       "desc": "Большой бургер с нежным филе куриной грудки в хрустящей панировке, сыром Эмменталь, сочными ломтиками помидора, свежим салатом и специальным соусом на булочке с кунжутом",
       "size": null,
       "price": 272,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c87/aeg80u25c8fdbk3hyj1a8eobw5dzsfma/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c87/aeg80u25c8fdbk3hyj1a8eobw5dzsfma/large.png",
+      "popular": false
     },
     {
       "id": "2.8",
@@ -286,7 +308,8 @@
       "desc": "Легендарный бургер с двумя рублеными бифштексами из 100% говядины, маринованными огурчиками, свежим салатом «Айсберг», ломтиком плавленого сыра Чеддер и специальным соусом «Биг Хит» на новой булочке с двумя видами кунжута",
       "size": null,
       "price": 182,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a9c/o9wvsgd785mlozd8sekimfcxzxtlmbsg/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a9c/o9wvsgd785mlozd8sekimfcxzxtlmbsg/large.png",
+      "popular": true
     },
     {
       "id": "2.9",
@@ -296,7 +319,8 @@
       "desc": "Легендарный Двойной бургер с двумя рублеными бифштексами из 100% говядины, маринованными огурчиками, свежим салатом «Айсберг», ломтиком плавленого сыра Чеддер и специальным соусом «Биг Хит» на новой булочке с двумя видами кунжута",
       "size": null,
       "price": 248,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a23/dpkk16ntba06qed5a61odwwizwr8lt1m/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a23/dpkk16ntba06qed5a61odwwizwr8lt1m/large.png",
+      "popular": false
     },
     {
       "id": "2.10",
@@ -306,7 +330,8 @@
       "desc": "Сочный бифштекс из натуральной говядины, приготовленный на гриле, карамелизованная булочка с кунжутом, два ломтика сыра Чеддер, свежий салат, кусочек помидора и лук, маринованные огурчики, кетчуп, горчица и специальный соус",
       "size": null,
       "price": 219,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d31/49shs9takk1enffx4acc6p1ss0qq2e96/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d31/49shs9takk1enffx4acc6p1ss0qq2e96/large.png",
+      "popular": true
     },
     {
       "id": "2.11",
@@ -316,7 +341,8 @@
       "desc": "Сочный бифштекс из натуральной говядины, приготовленный на гриле, карамелизованная булочка с кунжутом, два ломтика сыра Чеддер, свежий салат, кусочек помидора и лук, маринованные огурчики, кетчуп, горчица и специальный соус - стал еще больше!!!",
       "size": null,
       "price": 219,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ae0/gfrp9qqb64z29cmw0p6250j1o1ly3a9t/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ae0/gfrp9qqb64z29cmw0p6250j1o1ly3a9t/large.png",
+      "popular": false
     },
     {
       "id": "2.12",
@@ -326,7 +352,8 @@
       "desc": "Тот самый Бургер с двумя большими рублеными бифштексами из 100% говядины на булочке с кунжутом. Особенный вкус бургеру придает специальный соус с дымком, 3 кусочка сыра Эмменталь, ломтик помидора, свежий салат и лук!",
       "size": null,
       "price": 417,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/9e1/5ztwrwjaez9p6b1kjqibr9cqjb97fvqa/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/9e1/5ztwrwjaez9p6b1kjqibr9cqjb97fvqa/large.png",
+      "popular": false
     },
     {
       "id": "2.13",
@@ -336,7 +363,8 @@
       "desc": "Тот самый Бургер с двумя большими рублеными бифштексами из 100% говядины на булочке с кунжутом. Особенный вкус бургеру придает специальный соус с дымком, 3 кусочка сыра Эмменталь, ломтик помидора, свежий салат и лук!",
       "size": null,
       "price": 299,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/84c/6jha37d0sgyqhbmgz2axuxac7y8e3ezj/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/84c/6jha37d0sgyqhbmgz2axuxac7y8e3ezj/large.png",
+      "popular": true
     },
     {
       "id": "2.14",
@@ -346,7 +374,8 @@
       "desc": "Тот самый Бургер с двумя большими рублеными бифштексами из 100% говядины на булочке с кунжутом. Особенный вкус бургеру придает специальный соус с дымком, 3 кусочка сыра Эмменталь, ломтик помидора, свежий салат и лук!",
       "size": null,
       "price": 259,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c2d/h1hlwnuvftoyfxzvfe0kl03lp5sui9cc/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c2d/h1hlwnuvftoyfxzvfe0kl03lp5sui9cc/large.png",
+      "popular": false
     },
     {
       "id": "2.15",
@@ -356,7 +385,8 @@
       "desc": "Два рубленых бифштекса из натуральной цельной говядины с двумя кусочками сыра Чеддер на карамелизованной булочке, заправленной горчицей, кетчупом, луком и двумя кусочками маринованного огурчика!",
       "size": null,
       "price": 160,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/329/s41kin3pusrfteafpia26k07g3qdqzx5/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/329/s41kin3pusrfteafpia26k07g3qdqzx5/large.png",
+      "popular": false
     },
     {
       "id": "2.16",
@@ -366,7 +396,8 @@
       "desc": "Рубленый бифштекс из натуральной цельной говядины с двумя кусочками сыра Чеддер на карамелизованной булочке, заправленной горчицей, кетчупом, луком и двумя кусочками маринованного огурчика!",
       "size": null,
       "price": 78,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/953/xehowq236w4i413o6cevmxdnoi0uo5iv/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/953/xehowq236w4i413o6cevmxdnoi0uo5iv/large.png",
+      "popular": true
     },
     {
       "id": "2.17",
@@ -376,7 +407,8 @@
       "desc": "Рубленый бифштекс из натуральной цельной говядины на карамелизованной булочке, заправленной горчицей, кетчупом, луком и кусочком маринованного огурчика!",
       "size": null,
       "price": 74,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/55a/o39ugkm9yke23wciwl4hsr6q2sypv11n/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/55a/o39ugkm9yke23wciwl4hsr6q2sypv11n/large.png",
+      "popular": false
     },
     {
       "id": "2.18",
@@ -386,7 +418,8 @@
       "desc": "Сочная куриная котлета в хрустящей панировке, сыр Чеддер, ароматный бекон, ломтик помидора, свежий салат, специальный соус и булочка с кунжутом!",
       "size": null,
       "price": 173,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/399/rcrahic86gvdateldvpul16wwqid9sho/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/399/rcrahic86gvdateldvpul16wwqid9sho/large.png",
+      "popular": true
     },
     {
       "id": "2.19",
@@ -396,7 +429,8 @@
       "desc": "Сочная куриная котлета в хрустящей панировке, салат Айсберг, специальный соус и карамелизированная булочка с кунжутом",
       "size": null,
       "price": 114,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a6f/bi9mpc87q5c284z438prbz5clq9bs857/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a6f/bi9mpc87q5c284z438prbz5clq9bs857/large.png",
+      "popular": false
     },
     {
       "id": "2.20",
@@ -406,7 +440,8 @@
       "desc": "Обжаренная куриная котлета из сочного куриного мяса, панированная в сухарях, которая подается на карамелизованной булочке, заправленной свежим салатом и специальным соусом!",
       "size": null,
       "price": 70,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d28/860yi5qf8grpa2ion4eerl6nggtnj2wb/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d28/860yi5qf8grpa2ion4eerl6nggtnj2wb/large.png",
+      "popular": false
     },
     {
       "id": "2.21",
@@ -416,7 +451,8 @@
       "desc": "Обжаренная куриная котлета из сочного куриного мяса, панированная в сухарях, которая подается на карамелизованной булочке, заправленной свежим салатом и специальным соусом!",
       "size": null,
       "price": 204,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a79/s6u6nmeb4ra1qzxna12q1zhjnnixwq9z/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a79/s6u6nmeb4ra1qzxna12q1zhjnnixwq9z/large.png",
+      "popular": false
     },
     {
       "id": "2.22",
@@ -426,7 +462,8 @@
       "desc": "Обжаренная куриная котлета из сочного куриного мяса, панированная в сухарях, которая подается на карамелизованной булочке, заправленной свежим салатом и специальным соусом!",
       "size": null,
       "price": 259,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/324/2sgjcps41u8gjv829kvjyn63coi0ccy8/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/324/2sgjcps41u8gjv829kvjyn63coi0ccy8/large.png",
+      "popular": false
     },
     {
       "id": "2.23",
@@ -436,7 +473,8 @@
       "desc": "100% белое куриное мясо в хрустящей панировке, ломтик помидора, листья салата и ломтики твёрдого сыра, заправленные специальным соусом и завёрнутые в пшеничную лепешку!",
       "size": null,
       "price": 179,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/9c7/3ax5dxwpb2bdlhqewm0e65bz6ft3rntb/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/9c7/3ax5dxwpb2bdlhqewm0e65bz6ft3rntb/large.png",
+      "popular": false
     },
     {
       "id": "2.24",
@@ -446,7 +484,8 @@
       "desc": "100% креветочки в хрустящей панировке, ломтик помидора, листья салата и ломтики твёрдого сыра, заправленные специальным соусом и завёрнутые в пшеничную лепешку!",
       "size": null,
       "price": 252,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b15/6h3r48gab8v890doyxve916f7dxsa8v0/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b15/6h3r48gab8v890doyxve916f7dxsa8v0/large.png",
+      "popular": false
     },
     {
       "id": "2.25",
@@ -456,7 +495,8 @@
       "desc": "Два сочных бифштекса из 100% говядины, свежие овощи, сыр, специальный соус с дымком и все это в пшеничной лепешке!",
       "size": null,
       "price": 252,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/182/cgnemcuhtlpjytwsttrfl9og87t038s3/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/182/cgnemcuhtlpjytwsttrfl9og87t038s3/large.png",
+      "popular": false
     }
   ],
   "potatoesNstartersNsalads": [
@@ -468,7 +508,8 @@
       "desc": "Аппетитные колечки из тянущегося сыра в хрустящей панировке.",
       "size": null,
       "price": 119,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/daa/56qxq9gb036ki4hs05r31rqmarqrto9t/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/daa/56qxq9gb036ki4hs05r31rqmarqrto9t/large.png",
+      "popular": false
     },
     {
       "id": "3.2",
@@ -478,7 +519,8 @@
       "desc": "Пикантные Куриные крылышки в хрустящей панировке – 4 шт. Наггетсы – 4 шт. Сырные колечки – 4 шт. 2 стандартные порции Картофеля.",
       "size": null,
       "price": 469,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1d8/r4o3ipwaxj7qko81fa1mcdyj4s7mesiv/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1d8/r4o3ipwaxj7qko81fa1mcdyj4s7mesiv/large.png",
+      "popular": false
     },
     {
       "id": "3.3",
@@ -488,7 +530,8 @@
       "desc": "Сочные и нежные Стрипсы – 4 шт. Наггетсы – 4 шт. Сырные колечки – 4 шт. 2 стандартные порции Картофеля.",
       "size": null,
       "price": 445,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/3b7/3fa007dejyxvrwo9fdp2i8md500b1c79/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/3b7/3fa007dejyxvrwo9fdp2i8md500b1c79/large.png",
+      "popular": false
     },
     {
       "id": "3.4",
@@ -498,7 +541,8 @@
       "desc": "Аппетитные треугольники из тянущегося сыра в хрустящей панировке.",
       "size": null,
       "price": 109,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/3bd/f3iab7svcjc2kf8g15uku1fqxahsqrm2/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/3bd/f3iab7svcjc2kf8g15uku1fqxahsqrm2/large.png",
+      "popular": false
     },
     {
       "id": "3.5",
@@ -508,7 +552,8 @@
       "desc": "Аппетитные треугольники из тянущегося сыра с кусочками пикантной колбаски Чоризо в хрустящей панировке.",
       "size": null,
       "price": 119,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/74f/nwz8ca0mxi2go8jloy6p39itgdywu7jv/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/74f/nwz8ca0mxi2go8jloy6p39itgdywu7jv/large.png",
+      "popular": false
     },
     {
       "id": "3.6",
@@ -518,7 +563,8 @@
       "desc": "Вкуснейшие сырные палочки в хрустящей панировке.",
       "size": null,
       "price": 119,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/5a9/xee69ts8gqo39oph2qoyc72cskdjxlp7/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/5a9/xee69ts8gqo39oph2qoyc72cskdjxlp7/large.png",
+      "popular": false
     },
     {
       "id": "3.7",
@@ -528,7 +574,8 @@
       "desc": "Сочные и нежные Стрипсы – 4 шт. Наггетсы – 4 шт. Сырные треугольники Чоризо– 4 шт. 2 стандартные порции Картофеля.",
       "size": null,
       "price": 445,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e5a/a6rjnrywzacoa2510q3h6ne1hyopayya/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e5a/a6rjnrywzacoa2510q3h6ne1hyopayya/large.png",
+      "popular": false
     },
     {
       "id": "3.8",
@@ -538,7 +585,8 @@
       "desc": "Пикантные Куриные крылышки в хрустящей панировке – 4 шт. Наггетсы – 4 шт. Сырные треугольники Чоризо – 4 шт. 2 стандартные порции Картофеля.",
       "size": null,
       "price": 469,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f81/k1k0p4ogu5fpxt6e2jv2ixlaglneah1u/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f81/k1k0p4ogu5fpxt6e2jv2ixlaglneah1u/large.png",
+      "popular": false
     },
     {
       "id": "3.9",
@@ -552,7 +600,8 @@
         { "name": "Большой", "price": 111 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c6d/eikcjvj4sqimcquhve0unkbbnx9segl3/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/c6d/eikcjvj4sqimcquhve0unkbbnx9segl3/large.png",
+      "popular": false
     },
     {
       "id": "3.10",
@@ -566,7 +615,8 @@
         { "name": "Большой", "price": 116 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1df/7zmn6glfu5ouie5w94biplrzx5xxzay7/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1df/7zmn6glfu5ouie5w94biplrzx5xxzay7/large.png",
+      "popular": false
     },
     {
       "id": "3.11",
@@ -579,7 +629,8 @@
         { "name": "Большой", "price": 125 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/6fb/lx9cmsp92pmw8jgdbknbsjb2rc02lxjb/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/6fb/lx9cmsp92pmw8jgdbknbsjb2rc02lxjb/large.png",
+      "popular": false
     },
     {
       "id": "3.12",
@@ -589,7 +640,8 @@
       "desc": "Неподражаемые Наггетсы в хрустящей панировке со специями– 3 шт. Сочные и нежные Стрипсы – 2 шт. Маленькая порция Картофеля",
       "size": null,
       "price": 169,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/29f/lax106gynvoxul97ix8h8bp0w6nb0wwl/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/29f/lax106gynvoxul97ix8h8bp0w6nb0wwl/large.png",
+      "popular": false
     },
     {
       "id": "3.13",
@@ -603,7 +655,8 @@
         { "name": "7 шт.", "price": 305 }
       ],
       "price": 105,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/64e/4e1y0dwd30604k5rt3f8hoxtq8gsn3ok/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/64e/4e1y0dwd30604k5rt3f8hoxtq8gsn3ok/large.png",
+      "popular": false
     },
     {
       "id": "3.14",
@@ -618,7 +671,8 @@
         { "name": "18 шт.", "price": 199 }
       ],
       "price": 105,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/349/cfb2pmyxh3kstydwrml4zdb5p10y3ikg/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/349/cfb2pmyxh3kstydwrml4zdb5p10y3ikg/large.png",
+      "popular": false
     },
     {
       "id": "3.15",
@@ -632,7 +686,8 @@
         { "name": "7 шт.", "price": 259 }
       ],
       "price": 125,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/432/r79n1s0g9fnxe5s51p8gpzsi0cp3i2os/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/432/r79n1s0g9fnxe5s51p8gpzsi0cp3i2os/large.png",
+      "popular": false
     },
     {
       "id": "3.16",
@@ -646,7 +701,8 @@
         { "name": "9 шт.", "price": 395 }
       ],
       "price": 209,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b16/v5h90xgk1rf4cabrmqbovd8nwcbvg13l/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b16/v5h90xgk1rf4cabrmqbovd8nwcbvg13l/large.png",
+      "popular": false
     },
     {
       "id": "3.17",
@@ -656,7 +712,8 @@
       "desc": "Хрустящие листья салата айсберг, сочные томаты черри, тертый сыр пармезан и нежнейшие куриные стрипсы.",
       "size": null,
       "price": 179,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b25/d1iarrpk82q0y0e5emak1ak4qh0ud62i/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b25/d1iarrpk82q0y0e5emak1ak4qh0ud62i/large.png",
+      "popular": false
     },
     {
       "id": "3.18",
@@ -666,7 +723,8 @@
       "desc": "Хрустящие листья салата айсберг, сочные томаты черри, тертый сыр пармезан и нежнейшие Салат Цезарь с креветки.",
       "size": null,
       "price": 239,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/31f/1jhwicti1ycwjz2ys06xxpkra0kln7d5/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/31f/1jhwicti1ycwjz2ys06xxpkra0kln7d5/large.png",
+      "popular": false
     },
     {
       "id": "3.19",
@@ -676,7 +734,8 @@
       "desc": "Хрустящие листья салата Айсберг, сочные томаты черри и маслины",
       "size": null,
       "price": 115,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/575/mw327lnapdouf8yleynpgfm4mbinewrc/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/575/mw327lnapdouf8yleynpgfm4mbinewrc/large.png",
+      "popular": false
     }
   ],
   "comboLunch": [
@@ -691,7 +750,8 @@
         { "name": "Большой", "price": 455 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1ed/5xn75i8q7h4fjvvhqorw57hayc8h4o1q/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/1ed/5xn75i8q7h4fjvvhqorw57hayc8h4o1q/large.png",
+      "popular": false
     },
     {
       "id": "4.2",
@@ -704,7 +764,8 @@
         { "name": "Большой", "price": 289 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a80/62fil0t32gickk0iuzkz7abq0e3dtgj9/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a80/62fil0t32gickk0iuzkz7abq0e3dtgj9/large.png",
+      "popular": false
     },
     {
       "id": "4.3",
@@ -717,7 +778,8 @@
         { "name": "Большой", "price": 327 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/0e2/6fhu6ddci8wdz803m29fy986orgxeei6/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/0e2/6fhu6ddci8wdz803m29fy986orgxeei6/large.png",
+      "popular": false
     },
     {
       "id": "4.4",
@@ -730,7 +792,8 @@
         { "name": "Большой", "price": 413 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e90/1ilksoyccf6xyvt4v4e5maahll8x0pgs/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e90/1ilksoyccf6xyvt4v4e5maahll8x0pgs/large.png",
+      "popular": false
     },
     {
       "id": "4.5",
@@ -743,7 +806,8 @@
         { "name": "Большой", "price": 339 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d8c/esrw5ndpjz37bxwn0fiysy88xulguohw/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/d8c/esrw5ndpjz37bxwn0fiysy88xulguohw/large.png",
+      "popular": false
     },
     {
       "id": "4.6",
@@ -756,7 +820,8 @@
         { "name": "Большой", "price": 405 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e00/tq9fy8vs78bwebjf93jt5c3a3yj7xw4d/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/e00/tq9fy8vs78bwebjf93jt5c3a3yj7xw4d/large.png",
+      "popular": false
     },
     {
       "id": "4.7",
@@ -769,7 +834,8 @@
         { "name": "Большой", "price": 389 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f12/vckm13rpah0eyiy5o9i59euggkk3x6xi/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f12/vckm13rpah0eyiy5o9i59euggkk3x6xi/large.png",
+      "popular": false
     },
     {
       "id": "4.8",
@@ -782,7 +848,8 @@
         { "name": "Большой", "price": 411 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/456/km1j0fft7qd8vbhlyt6ujjgz2f3gz8jz/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/456/km1j0fft7qd8vbhlyt6ujjgz2f3gz8jz/large.png",
+      "popular": false
     },
     {
       "id": "4.9",
@@ -795,7 +862,8 @@
         { "name": "Большой", "price": 372 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/456/km1j0fft7qd8vbhlyt6ujjgz2f3gz8jz/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/456/km1j0fft7qd8vbhlyt6ujjgz2f3gz8jz/large.png",
+      "popular": false
     },
     {
       "id": "4.10",
@@ -808,7 +876,8 @@
         { "name": "Большой", "price": 532 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/cfa/uz202o7a38xycbxgztbn1yp740xea2ua/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/cfa/uz202o7a38xycbxgztbn1yp740xea2ua/large.png",
+      "popular": false
     },
     {
       "id": "4.11",
@@ -821,7 +890,8 @@
         { "name": "Большой", "price": 350 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/194x194/upload/iblock/c1a/hbl8q3hcts3z9n4wjlg5mr0tzx0npi0e/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/194x194/upload/iblock/c1a/hbl8q3hcts3z9n4wjlg5mr0tzx0npi0e/large.png",
+      "popular": false
     },
     {
       "id": "4.12",
@@ -834,7 +904,8 @@
         { "name": "Большой", "price": 295 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/eed/xvsm6mb6ih3x2jig0l0xu5ro8qrnplm6/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/eed/xvsm6mb6ih3x2jig0l0xu5ro8qrnplm6/large.png",
+      "popular": false
     },
     {
       "id": "4.13",
@@ -847,7 +918,8 @@
         { "name": "Большой", "price": 306 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/323/fy27u2arsqxm3ydo4iluijord3bggam1/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/323/fy27u2arsqxm3ydo4iluijord3bggam1/large.png",
+      "popular": false
     },
     {
       "id": "4.14",
@@ -860,7 +932,8 @@
         { "name": "Большой", "price": 268 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/78c/1rqbnm9u755sy7byl742877q0ybrsfhr/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/78c/1rqbnm9u755sy7byl742877q0ybrsfhr/large.png",
+      "popular": false
     },
     {
       "id": "4.15",
@@ -873,7 +946,8 @@
         { "name": "Большой", "price": 400 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/63e/aaycvz5me37nqe8qphnswglapxee9c7c/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/63e/aaycvz5me37nqe8qphnswglapxee9c7c/large.png",
+      "popular": false
     },
     {
       "id": "4.16",
@@ -886,7 +960,8 @@
         { "name": "Большой", "price": 345 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a53/j42pt0v25y7weqrs3wmnprpeh02vojck/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/a53/j42pt0v25y7weqrs3wmnprpeh02vojck/large.png",
+      "popular": false
     },
     {
       "id": "4.17",
@@ -899,7 +974,8 @@
         { "name": "Большой", "price": 503 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f8d/h6u8mld88t1yntdekivz10bea594rubr/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f8d/h6u8mld88t1yntdekivz10bea594rubr/large.png",
+      "popular": false
     },
     {
       "id": "4.18",
@@ -912,7 +988,8 @@
         { "name": "Большой", "price": 403 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/681/coba6pousaiy0jy4ri6ob5m9svlejyj0/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/681/coba6pousaiy0jy4ri6ob5m9svlejyj0/large.png",
+      "popular": false
     },
     {
       "id": "4.19",
@@ -925,7 +1002,8 @@
         { "name": "Большой", "price": 272 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/989/3sswpljoac2gltx67oqvk8knxc9uq6km/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/989/3sswpljoac2gltx67oqvk8knxc9uq6km/large.png",
+      "popular": false
     },
     {
       "id": "4.20",
@@ -938,7 +1016,8 @@
         { "name": "Большой", "price": 240 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/0cb/h5l9x91ofxrwgv1i5ob707zwt1jsp3wd/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/0cb/h5l9x91ofxrwgv1i5ob707zwt1jsp3wd/large.png",
+      "popular": false
     },
     {
       "id": "4.21",
@@ -951,7 +1030,8 @@
         { "name": "Большой", "price": 393 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ca5/7bbzfzg62to4civnx1v4bs2jqcqpvt10/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/ca5/7bbzfzg62to4civnx1v4bs2jqcqpvt10/large.png",
+      "popular": false
     },
     {
       "id": "4.22",
@@ -964,7 +1044,8 @@
         { "name": "Большой", "price": 343 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/777/ob1d4s43o5bur02au4n6v7iiw5mliqpo/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/777/ob1d4s43o5bur02au4n6v7iiw5mliqpo/large.png",
+      "popular": false
     },
     {
       "id": "4.23",
@@ -977,7 +1058,8 @@
         { "name": "Большой", "price": 279 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f74/rz8rfkq0yv7nhnqhz4vlccw8dsv9crry/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/f74/rz8rfkq0yv7nhnqhz4vlccw8dsv9crry/large.png",
+      "popular": false
     },
     {
       "id": "4.24",
@@ -990,7 +1072,8 @@
         { "name": "Большой", "price": 435 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/fe2/bn5lwmw8g9g74krvjyxpb7emtng4o0f5/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/fe2/bn5lwmw8g9g74krvjyxpb7emtng4o0f5/large.png",
+      "popular": false
     },
     {
       "id": "4.25",
@@ -1003,7 +1086,8 @@
         { "name": "Большой", "price": 369 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b3a/8ct8r8mst7zvhywj7kr0skutu754o33i/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/b3a/8ct8r8mst7zvhywj7kr0skutu754o33i/large.png",
+      "popular": false
     },
     {
       "id": "4.26",
@@ -1016,7 +1100,8 @@
         { "name": "Большой", "price": 309 }
       ],
       "price": null,
-      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/dae/ccbmspj5qxk7ofb39hwlzgps4jpgfdrr/large.png"
+      "pict": "https://vkusnoitochka.ru/resize/290x286/upload/iblock/dae/ccbmspj5qxk7ofb39hwlzgps4jpgfdrr/large.png",
+      "popular": false
     }
   ]
 }
