@@ -7,6 +7,13 @@
 body
     font-size: $fs-md
     font-family: $roboto
+
+    &::-webkit-scrollbar
+        background: $bgc-app
+        width: 0px
+
+    &::-webkit-scrollbar-thumb
+        background-color: #ede1e1   
     
 // UI ELEMENTS:
 
@@ -52,9 +59,8 @@ td, th
     grid-template-areas: "header header" "categories dishes"
     background-color: $bgc-app   
 
-.header    
-    grid-area: header
-    padding: $p-sm
+  
+    
 
 
                   

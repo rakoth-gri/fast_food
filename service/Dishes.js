@@ -1,6 +1,8 @@
 import cartStore from "./cartStore.js";
 import Dishes_modal from "./DishesModal.js";
 import { actionCreators } from "./actionCreators.js";
+import { fetchService } from "./fetchService.js";
+import { SPINNER } from "../constants/constants.js";
 
 // SERVICE БЛЮД -----
 // *****************************************
@@ -13,18 +15,22 @@ export default class Dishes {
     this.modalDishInfo = {};
     this.dishes_modal = new Dishes_modal();
     // methods
-    this.fetchDishes(URL, startCategory);
+    this.getAPIdata(URL, startCategory);
     this.addListenerToContainer();
     this.addListenerToSearchBar();
     this.addListenerToDeleteAll();
   }
 
-  async fetchDishes(URL, category) {
-    let res = await fetch(URL);
-    let data = await res.json();
-    //  Object => []
-    this.dishesList = Object.values(data).flat();
-    this.renderDishes(category, null);
+  async getAPIdata(url, category) {
+    let data = await fetchService(url);
+    if (data instanceof Object) {
+      //  Object => []
+      this.dishesList = Object.values(data).flat();
+      this.renderDishes(category, null);
+      SPINNER.classList.toggle("inner");
+      return;
+    }
+    alert(`Error: ${data}`);
   }
 
   // RENDERS--
@@ -33,8 +39,7 @@ export default class Dishes {
 
     let data =
       searchValue === null
-        ? // ? this.dishesList.filter((dish) => dish.category === category)
-          this.dishesList.filter((dish) =>
+        ? this.dishesList.filter((dish) =>
             category === "popular" ? dish.popular : dish.category === category
           )
         : this.dishesList.filter(({ title, desc }) =>
