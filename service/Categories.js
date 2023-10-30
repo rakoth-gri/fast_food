@@ -1,4 +1,4 @@
-import Dishes from "./dishes.js";
+import Dishes from "./Dishes.js";
 // SERVICE КАТЕГОРИЙ -----
 // ******************************************************
 
