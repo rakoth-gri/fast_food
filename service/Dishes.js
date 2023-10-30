@@ -2,7 +2,7 @@ import cartStore from "./cartStore.js";
 import Dishes_modal from "./DishesModal.js";
 import { actionCreators } from "./actionCreators.js";
 import { fetchService } from "./fetchService.js";
-import { SPINNER } from "../constants/constants.js";
+import { SPINNER, MAIN } from "../constants/constants.js";
 
 // SERVICE БЛЮД -----
 // *****************************************
@@ -36,6 +36,12 @@ export default class Dishes {
   // RENDERS--
   renderDishes(category, searchValue) {
     const cartState = cartStore.getState();
+
+    MAIN.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
 
     let data =
       searchValue === null
@@ -83,6 +89,8 @@ export default class Dishes {
           })
           .join("")}
       `;
+
+    
   }
 
   // HANDLERS --
