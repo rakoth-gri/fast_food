@@ -35,7 +35,7 @@
           <input
             type="search"
             class="header__searchBar_input"
-            placeholder="Поиск:"
+            placeholder="Введите товар:"
             autofocus
           />
         </div>
@@ -48,13 +48,31 @@
       </header>
       <!-- ASIDE g-->
       <aside class="categories"><!-- AUTO RENDER --></aside>
-      <!-- MAIN (DISHES) -->
-      <main class="dishes"><!-- AUTO RENDER --></main>
-      <!-- DIV (DISHESMODAL) -->
-      <div class="dishes__modal">
+      <!-- MAIN (DISHES) -->      
+      <main class="main">
+        <div class="lds-spinner">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+        <section class="dishes">
+            <!-- AUTO RENDER -->
+        </section>
+      </main>
+      <!-- DIV (DISH_MODAL) -->
+      <div class="dish__modal">
         <!-- AUTO RENDER -->
       </div>
-    </div>    
+    </div>
     <script src="scripts/index.js" type="module"></script>
   </body>
 </html>

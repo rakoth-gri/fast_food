@@ -1,6 +1,8 @@
 import cartStore from "./cartStore.js";
-import Dishes_modal from "./DishesModal.js";
+import Modal from "./Modal.js";
 import { actionCreators } from "./actionCreators.js";
+import { fetchService } from "./fetchService.js";
+import { SPINNER, MAIN, MODAL_CONTAINER } from "../constants/constants.js";
 
 // SERVICE БЛЮД -----
 // *****************************************
@@ -10,40 +12,56 @@ export default class Dishes {
     this.$searchBar = document.querySelector(".header__searchBar_input");
     this.$deleteAll = document.querySelector(".header__deleteAll");
     this.dishesList = null;
-    this.modalDishInfo = {};
-    this.dishes_modal = new Dishes_modal();
+    this.modal = new Modal(MODAL_CONTAINER);
     // methods
-    this.fetchDishes(URL, startCategory);
+    this.getAPIdata(URL, startCategory);
     this.addListenerToContainer();
     this.addListenerToSearchBar();
     this.addListenerToDeleteAll();
   }
 
-  async fetchDishes(URL, category) {
-    let res = await fetch(URL);
-    let data = await res.json();
-    //  Object => []
-    this.dishesList = Object.values(data).flat();
-    this.renderDishes(category, null);
+  async getAPIdata(url, category) {
+    let data = await fetchService(url);
+    if (data instanceof Object) {
+      //  Object => []
+      this.dishesList = Object.values(data).flat();
+      this.render(category, null);
+      SPINNER.classList.toggle("inner");
+      return;
+    }
+    alert(`Error: ${data}`);
   }
 
   // RENDERS--
-  renderDishes(category, searchValue) {
+  render(category, search) {
     const cartState = cartStore.getState();
 
+    MAIN.scrollTo({
+      top: 0,
+      left: 0,
+      behavior: "smooth",
+    });
+
     let data =
-      searchValue === null
-        ? this.dishesList.filter((dish) => dish.category === category)
+      search === null
+        ? this.dishesList.filter((dish) =>
+            category === "popular" ? dish.popular : dish.category === category
+          )
         : this.dishesList.filter(({ title, desc }) =>
-            title.concat(desc).trim().toLowerCase().includes(searchValue)
+            title.concat(desc).trim().toLowerCase().includes(search)
           );
 
     this.$container.innerHTML = `
         ${data
-          .map(({ title, pict, size, price, id }, i) => {
+          .map(({ title, pict, size, price, id, popular }, i) => {
             return `
               <article class="dishes__card">
-                <img src="${pict}" alt="${title}" class="dishes__card_pict"/>
+                ${
+                  popular
+                    ? `<img alt="hit.png" src="./img/hit.png" class="dishes__card_hit"/>`
+                    : ``
+                }
+                <img src="${pict}" alt="${title}" class="dishes__card_pict" loading="lazy"/>
                 <p class="dishes__card_title"> ${title} </p>
                 <div class="dishes__card_info">
                   <span class="dishes__card_size"> ${
@@ -83,28 +101,25 @@ export default class Dishes {
 
     const cartState = cartStore.getState();
 
-    this.modalDishInfo = this.dishesList.find(
-      (dish) => dish.id === e.target.id
-    );
-
-    const { id, title, price, size } = this.modalDishInfo;
+    const { id, title, price, size, newDish, desc, pict } =
+      this.dishesList.find((dish) => dish.id === e.target.id);
 
     // Контроллер обработки кнопок-иконок в карточках товаров (dishes__card):
     switch (true) {
       case e.target.matches(".dishes__card_btn"):
-        this.dishes_modal.renderDishesModal(this.modalDishInfo);
+        this.modal.render({ id, title, price, size, newDish, desc, pict });
         break;
       case e.target.matches(".dishes__card_remove"):
         [...document.querySelectorAll(".dishes__card_amount")].find(
           (item) => item.id === id
         ).textContent = 0;
-        cartStore.dispatch(actionCreators.removeDishFromStoreAction(id))       
+        cartStore.dispatch(actionCreators.removeDishFromStoreAction(id));
         break;
       default:
         [...document.querySelectorAll(".dishes__card_amount")].find(
           (item) => item.id === id
         ).textContent =
-          (cartState.find((item) => item.id === id)?.amount || 0) + 1;        
+          (cartState.find((item) => item.id === id)?.amount || 0) + 1;
         cartStore.dispatch(
           actionCreators.addDishToStoreAction({
             id,
@@ -117,12 +132,14 @@ export default class Dishes {
   };
 
   searchBarHandler = (e) => {
-    this.renderDishes(null, e.target.value.trim().toLowerCase());
+    this.render(null, e.target.value.trim().toLowerCase());
   };
 
   deleteAllHandler = (e) => {
-    cartStore.dispatch(actionCreators.removeAllDishesFromStore())
-    document.querySelectorAll(".dishes__card_amount").forEach(dishAmount => dishAmount.textContent = 0)
+    cartStore.dispatch(actionCreators.removeAllDishesFromStore());
+    document
+      .querySelectorAll(".dishes__card_amount")
+      .forEach((dishAmount) => (dishAmount.textContent = 0));
   };
 
   // LISTENERS --

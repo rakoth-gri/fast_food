@@ -3,18 +3,20 @@ import cartStore from "./cartStore.js";
 import { actionCreators } from "./actionCreators.js";
 
 export default class Cart {
-  constructor() {
-    this.cart = cartStore.getState();
-    this.$tableWrapper = document.querySelector(".Cart__tableWrapper");
+  constructor(container) {
+    this.$container = container;
     this.H1 = document.querySelector(".Cart__h1");
     // METHODS --
-    this.renderShoppingCart(this.cart, this.$tableWrapper);
-    this.addListenerTotableWrapper();
+    this.render(cartStore.getState(), this.$container);
+    this.addListenerToContainer();
   }
 
-  renderShoppingCart(data, container) {
-    if (!cartStore.getState().length)
+  render(data, container) {
+    if (!data.length) {
       this.H1.textContent = "В корзине товаров нет!";
+      container.innerHTML = "";
+      return;
+    }
 
     const totalSum = data.reduce(
       (acc, { price, amount }) => acc + price * amount,
@@ -57,16 +59,13 @@ export default class Cart {
     `;
   }
 
-  tableWrapperHandler(e) {
+  containerHandler(e) {
     if (!e.target.matches(".table__td_button button")) return;
     cartStore.dispatch(actionCreators.removeDishFromStoreAction(e.target.id));
-    this.renderShoppingCart(cartStore.getState(), this.$tableWrapper);
+    this.render(cartStore.getState(), this.$container);
   }
 
-  addListenerTotableWrapper() {
-    this.$tableWrapper.addEventListener(
-      "click",
-      this.tableWrapperHandler.bind(this)
-    );
+  addListenerToContainer() {
+    this.$container.addEventListener("click", this.containerHandler.bind(this));
   }
 }

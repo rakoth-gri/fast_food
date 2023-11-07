@@ -10,4 +10,4 @@ callback(cartStore.state);
 cartStore.observer(callback);
 
 // Стартуем отрисовку корзины ----
-new Cart();
+new Cart(document.querySelector(".Cart__tableWrapper"));

@@ -1,20 +1,24 @@
-.dishes      
+.main     
     grid-area: dishes
-    padding: $p-sm 
-    display: flex
-    align-items: center
-    justify-content: flex-start
-    flex-wrap: wrap
+    padding: $p-sm     
     background-color: $bgc-dishes
     overflow-Y: auto
     position: relative
 
     &::-webkit-scrollbar
         background: $bgc-app
-        width: $p-xs
+        width: $p-sm
 
     &::-webkit-scrollbar-thumb
-        background-color: #000   
+        background-color: $c-active
+        border-radius: 10px      
+
+.dishes
+    display: flex
+    align-items: center
+    justify-content: flex-start
+    flex-wrap: wrap
+    padding: $p-sm   
 
     &__card
         flex: 1 1 335px
@@ -23,7 +27,8 @@
         padding: $p-sm
         position: relative
         margin: $p-lg 
-        height: 450px 
+        height: 450px
+        background-color: $bgc-dishes 
 
         &_pict
             width: 80%
@@ -63,5 +68,11 @@
         &_remove
            left: 4%
            color: brown
-           width: 10%            
+           width: 10%
+
+        &_hit
+            position: absolute
+            top: 5%
+            left: 2.5%
+            width: 27%               
                                               
