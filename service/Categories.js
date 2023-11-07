@@ -3,19 +3,19 @@ import Dishes from "./Dishes.js";
 // ******************************************************
 
 export class Categories {
-  constructor({ categories, data, url, dishes }) {
-    this.$categories = categories;
+  constructor({ categoriesContainer, data, url, dishesContainer }) {
+    this.$container = categoriesContainer;
     this.$categoriesCardsImages = null;
     this.category = "drinks";
     // Вызываем конструктор с асинхронными методами
-    this.dishes = new Dishes(url, dishes, this.category);
+    this.dishes = new Dishes(url, dishesContainer, this.category);
     // methods
-    this.renderCategories(this.$categories, data);
-    this.addListenerToSidebar();
+    this.render(this.$container, data);
+    this.addListenerToContainer();
   }
 
   // RENDERS --
-  renderCategories(container, data) {
+  render(container, data) {
     container.insertAdjacentHTML(
       "beforeend",
       data
@@ -40,12 +40,12 @@ export class Categories {
   sidebarHandler = (e) => {
     const { category, i } = e.target.dataset;
     this.setActiveCategoriesCardsImage(i);
-    this.dishes.renderDishes(category, null);
+    this.dishes.render(category, null);
   };
 
   // LISTENERS --
-  addListenerToSidebar() {
-    this.$categories.addEventListener("click", this.sidebarHandler);
+  addListenerToContainer() {
+    this.$container.addEventListener("click", this.sidebarHandler);
   }
 
   setActiveCategoriesCardsImage(i) {

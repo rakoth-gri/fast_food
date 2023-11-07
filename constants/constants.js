@@ -1,6 +1,7 @@
 // DOM
 const CATEGORIES_CONTAINER = document.querySelector(".categories"),
   DISHES_CONTAINER = document.querySelector(".dishes"),
+  MODAL_CONTAINER = document.querySelector(".dish__modal"),
   MAIN = document.querySelector(".main"),
   HEADER_BASKET_AMOUNT = document.querySelector(".header__basketAmount"),
   HEADER_SHOPPING_BASKET = document.querySelector(".header__shoppingBasket"),
@@ -71,6 +72,7 @@ export {
   CATEGORIES_CONTAINER,
   MAIN,
   DISHES_CONTAINER,
+  MODAL_CONTAINER,
   CATEGORIES_LIST,
   URL,
   HEADER_BASKET_AMOUNT,

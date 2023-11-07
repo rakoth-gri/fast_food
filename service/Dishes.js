@@ -1,8 +1,8 @@
 import cartStore from "./cartStore.js";
-import Dishes_modal from "./DishesModal.js";
+import Modal from "./Modal.js";
 import { actionCreators } from "./actionCreators.js";
 import { fetchService } from "./fetchService.js";
-import { SPINNER, MAIN } from "../constants/constants.js";
+import { SPINNER, MAIN, MODAL_CONTAINER } from "../constants/constants.js";
 
 // SERVICE БЛЮД -----
 // *****************************************
@@ -12,8 +12,7 @@ export default class Dishes {
     this.$searchBar = document.querySelector(".header__searchBar_input");
     this.$deleteAll = document.querySelector(".header__deleteAll");
     this.dishesList = null;
-    this.modalDishInfo = {};
-    this.dishes_modal = new Dishes_modal();
+    this.modal = new Modal(MODAL_CONTAINER);
     // methods
     this.getAPIdata(URL, startCategory);
     this.addListenerToContainer();
@@ -26,7 +25,7 @@ export default class Dishes {
     if (data instanceof Object) {
       //  Object => []
       this.dishesList = Object.values(data).flat();
-      this.renderDishes(category, null);
+      this.render(category, null);
       SPINNER.classList.toggle("inner");
       return;
     }
@@ -34,7 +33,7 @@ export default class Dishes {
   }
 
   // RENDERS--
-  renderDishes(category, searchValue) {
+  render(category, search) {
     const cartState = cartStore.getState();
 
     MAIN.scrollTo({
@@ -44,12 +43,12 @@ export default class Dishes {
     });
 
     let data =
-      searchValue === null
+      search === null
         ? this.dishesList.filter((dish) =>
             category === "popular" ? dish.popular : dish.category === category
           )
         : this.dishesList.filter(({ title, desc }) =>
-            title.concat(desc).trim().toLowerCase().includes(searchValue)
+            title.concat(desc).trim().toLowerCase().includes(search)
           );
 
     this.$container.innerHTML = `
@@ -89,8 +88,6 @@ export default class Dishes {
           })
           .join("")}
       `;
-
-    
   }
 
   // HANDLERS --
@@ -104,16 +101,13 @@ export default class Dishes {
 
     const cartState = cartStore.getState();
 
-    this.modalDishInfo = this.dishesList.find(
-      (dish) => dish.id === e.target.id
-    );
-
-    const { id, title, price, size } = this.modalDishInfo;
+    const { id, title, price, size, newDish, desc, pict } =
+      this.dishesList.find((dish) => dish.id === e.target.id);
 
     // Контроллер обработки кнопок-иконок в карточках товаров (dishes__card):
     switch (true) {
       case e.target.matches(".dishes__card_btn"):
-        this.dishes_modal.renderDishesModal(this.modalDishInfo);
+        this.modal.render({ id, title, price, size, newDish, desc, pict });
         break;
       case e.target.matches(".dishes__card_remove"):
         [...document.querySelectorAll(".dishes__card_amount")].find(
@@ -138,7 +132,7 @@ export default class Dishes {
   };
 
   searchBarHandler = (e) => {
-    this.renderDishes(null, e.target.value.trim().toLowerCase());
+    this.render(null, e.target.value.trim().toLowerCase());
   };
 
   deleteAllHandler = (e) => {

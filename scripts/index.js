@@ -28,8 +28,8 @@ cartStore.observer(callback);
 
 // Стартуем отрисовку ----
 new Categories({
-  categories: CATEGORIES_CONTAINER,
+  categoriesContainer: CATEGORIES_CONTAINER,
   data: CATEGORIES_LIST,
-  dishes: DISHES_CONTAINER,
+  dishesContainer: DISHES_CONTAINER,
   url: URL,
 });
